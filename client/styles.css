@@ -13,7 +13,6 @@ h1 {
 
 .scoreboard {
   background-image: url(background.jpg);
-  width: 1000px;
   border: 1px solid white;
 }
 
@@ -24,8 +23,6 @@ h1 {
 .container {
   background-image: url(background.jpg);
   border: 1px solid white;
-  width: 1000px;
-  height: 600px;
   margin-top: 20px;
 } 
 
@@ -34,3 +31,13 @@ h1 {
   left: 50%;
 
 }
+
+.enemy {
+  
+  -webkit-transform-origin: 50% 50%;
+  -webkit-animation:spin 1s linear infinite;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
