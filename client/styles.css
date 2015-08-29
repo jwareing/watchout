@@ -1,5 +1,33 @@
-/* your beautiful css styling goes here! */
+body {
+  background: #c9eae2;
+  font-family: verdana;
+  color: white;
+}
 
-/* Note: an asteroid image is included in this repo.
-Feel free to use it if you like. */
+h1 {
+  color: black;
+  display: block;
+  margin: auto;
+}
 
+.header {
+
+}
+
+.scoreboard {
+  background-image: url(background.jpg);
+  width: 1000px;
+  border: 1px solid white;
+}
+
+.scoreboard div {
+  padding: 3px;
+}
+
+.container {
+  background-image: url(background.jpg);
+  border: 1px solid white;
+  width: 1000px;
+  height: 600px;
+  margin-top: 20px;
+} 
